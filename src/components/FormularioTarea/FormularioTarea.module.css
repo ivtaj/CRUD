@@ -1,0 +1,43 @@
+.form {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.inputError {
+  border-color: #ff0000;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.successMessage {
+  color: #00aa00;
+  margin-top: 0.5rem;
+}
